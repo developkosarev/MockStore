@@ -1,0 +1,47 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  
+  "companies": [
+    { "id": 1, "title": "Company 01 gmbh" },
+	{ "id": 2, "title": "Company 02 gmbh" },
+	{ "id": 3, "title": "Company 03 gmbh" },
+	{ "id": 4, "title": "Company 04 gmbh" },
+	{ "id": 5, "title": "Company 05 gmbh" },
+	{ "id": 6, "title": "Company 06 gmbh" },
+	{ "id": 7, "title": "Company 07 gmbh" },
+	{ "id": 8, "title": "Company 08 gmbh" },
+	{ "id": 9, "title": "Company 09 gmbh" },
+	{ "id":10, "title": "Company 10 gmbh" }
+  ],
+  "departments": [
+    { "id": 1, "title": "Department 01" },
+	{ "id": 2, "title": "Department 02" },
+	{ "id": 3, "title": "Department 03" },
+	{ "id": 4, "title": "Department 04" },
+	{ "id": 5, "title": "Department 05" },
+	{ "id": 6, "title": "Department 06" },
+	{ "id": 7, "title": "Department 07" },
+	{ "id": 8, "title": "Department 08" },
+	{ "id": 9, "title": "Department 09" },
+	{ "id":10, "title": "Department 10" }
+  ],
+  "warehouses": [
+    { "id": 1, "owner_id": 1, "title": "Warehouse 01" },
+	{ "id": 2, "owner_id": 1, "title": "Warehouse 02" },
+	{ "id": 3, "owner_id": 2, "title": "Warehouse 03" },
+	{ "id": 4, "owner_id": 2, "title": "Warehouse 04" },
+	{ "id": 5, "owner_id": 2, "title": "Warehouse 05" },
+	{ "id": 6, "owner_id": 3, "title": "Warehouse 06" }
+  ],
+  "companies_departments": [
+    { "id": 1, "department_id": 1, "warehouse_id": 1,    "company_id": 1},
+	{ "id": 2, "department_id": 1, "warehouse_id": 2,    "company_id": 2},
+	{ "id": 3, "department_id": 1, "warehouse_id": null, "company_id": 3}
+  ]
+}
